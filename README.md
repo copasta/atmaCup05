@@ -26,7 +26,7 @@ atmaCup05
 ## notebook 
 それぞれのnotebookの内容は以下の通りです．  
 上から順番に実行していただければ問題ないと思います．  
-ただし，パスやファイル名を適宜変更する必要があるものもあります．  
+ただし，パスを適宜変更する必要があるものもあります．  
 kerasでモデルを構築しているので実行毎にスコアが変化します．  
 
 ### preprocessing.ipynb
@@ -40,16 +40,16 @@ kerasでモデルを構築しているので実行毎にスコアが変化しま
 * 注意事項 : なし
 
 ### wavenet_psedo_labeling.ipynb
-* 内容 : wavenet.ipynbの出力を基にしたpseudo-labeling
+* 内容 : `wavenet.ipynb`の出力を基にしたpseudo-labeling
 * 作業環境 : Google Colaboratory (GPU)  
 * 注意事項 : wavenet.ipynbの出力を用いるのでファイル名を適宜変更してください．
 
 ### ensemble.ipynb
-* 内容 : wavenet.ipynbとwavenet_psedo_labeling.ipynbの出力を同じ重みでrank averaging
+* 内容 : `wavenet.ipynb`と`wavenet_psedo_labeling.ipynb`の出力を同じ重みでrank averaging
 * 作業環境 : local(CPU)  
-* 注意事項 : wavenet.ipynbとwavenet_psedo_labeling.ipynbの出力を用いるのでファイル名を適宜変更してください．
+* 注意事項 : `wavenet.ipynb`と`wavenet_psedo_labeling.ipynb`の出力を用いるのでファイル名を適宜変更してください．
 
 ### wavenet_psedo_labeling_fix.ipynb (コンペ後に追加)
-* 内容 : wavenet_psedo_labeling.ipynbのpsedo-labelingに誤りがあったので修正しました．
+* 内容 : `wavenet_psedo_labeling.ipynb`のpsedo-labelingに誤りがあったので修正しました．
 * 作業環境 : Google Colaboratory (GPU)  
-* 注意事項 : wavenet.ipynbの出力を用いるのでファイル名を適宜変更してください．
+* 注意事項 : `wavenet.ipynb`の出力を用いるのでファイル名を適宜変更してください．
