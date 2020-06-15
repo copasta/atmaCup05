@@ -49,7 +49,7 @@ kerasでモデルを構築しているので実行毎にスコアが変化しま
 * 作業環境 : local(CPU)  
 * 注意事項 : `wavenet.ipynb`と`wavenet_psedo_labeling.ipynb`の出力を用いるのでファイル名を適宜変更してください．
 
-### wavenet_psedo_labeling_fix.ipynb (コンペ後に追加)
+### wavenet_psedo_labeling_fix.ipynb (コンペ終了後に追加)
 * 内容 : `wavenet_psedo_labeling.ipynb`のpsedo-labelingに誤りがあったので修正しました．
 * 作業環境 : Google Colaboratory (GPU)  
 * 注意事項 : `wavenet.ipynb`の出力を用いるのでファイル名を適宜変更してください．
